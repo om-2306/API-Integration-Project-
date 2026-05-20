@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REST API Dynamic Fetch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <h1>Public REST API Fetch Demo</h1>
+
+    <section class="controls">
+      <label for="search">Search users:</label>
+      <input id="search" type="search" placeholder="Search by name, username, or email" autocomplete="off" />
+      <button id="refresh">Reload</button>
+    </section>
+
+    <div id="status" class="status hidden"></div>
+
+    <section id="user-list" class="grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
